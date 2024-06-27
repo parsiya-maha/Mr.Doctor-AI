@@ -1,8 +1,9 @@
-Alzheimer/datasets/
-BrainTumors/datasets/
-BreastCancer/datasets/
-CervicalCancer/datasets/
-KidneyStone/datasets/
-LungCancer/datasets/
-LungMask/datasets/
-ToRecognize/datasets/
+# filter datsets files
+*/datasets/
+
+# filter some cancer (They are not ready)
+LungMask/
+KidneyStoneICU/
+
+# filter __pycache__ folders
+*/__pycache__/
